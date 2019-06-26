@@ -1,0 +1,25 @@
+/* 
+**CSS for individual card formatting  
+*/
+
+.card-box{
+    margin: 5px;
+    padding: 0px; 
+    font-size: 13px;
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+	text-align: justify;
+
+}
+
+.card-body{
+	text-align: left;
+            
+}
+
+.card-title{
+	text-align: center;
+}
+
+

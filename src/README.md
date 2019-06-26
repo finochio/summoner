@@ -6,8 +6,6 @@ The application displays the first 20 cards and automatically retrieves addition
 ## Implementation Approach
 I decided to implement this project using technology and tools I have never implemented personally.  The first portion of the project was reading through documentation, tutorials, and watching youtube videos on the topics such as react and react-bootstrap.  I then did a napkin sketch of of the actual requirements and high level design.  The next portion was setting up the host and dependencies which led to implementation and debugging and testing.  Lastly documentation was updated and simplified code comments.  The majority of the time spent was on research, documentation, and commenting.
 
-See it here:  - [Summoner](http://finochio.mynetgear.com/)
-
 
 ## Project Dependencies
 
@@ -45,77 +43,70 @@ My demo host is running on my headless media server running Windows 10 Pro.  Thi
  3. Clone the project repository
  4. Run ‘npm start’
 
+## Project Dependencies
+
+ - [npm](https://www.npmjs.com/)
+ - [Yarn](https://yarnpkg.com/en/)
+ - [Node.js](https://nodejs.org/en/)
+ - [React](https://reactjs.org/)
+ - [React Bootstrap](https://react-bootstrap.github.io/)
+ - [React Router](https://reacttraining.com/react-router/)
+ - [styled-components](https://www.styled-components.com/)
+
+## Development Environment
+This project was developed on an [iPad Pro 12.9 2018](https://www.apple.com/shop/buy-ipad/ipad-pro) since I don’t own a personal computer and needed to work on this at the office during breaks and remote locations.
+
+The following tools were used: 
+[Coda for iOS](https://panic.com/coda-ios/) IDE integrated with [Working Copy](https://workingcopy.app/#) synced with [GitHub](https://github.com/) as a code repository.
+
+## Demo Host
+
+My demo host is running on my headless media server running Windows 10 Pro.  This is not the ideal production environment, but I found this suitable with my limited time and quick deployment without setting up anything external.
+
+## Deploying and Running the Application
+
+ 1. Provision your host
+ 2. Install the dependencies above
+ 3. Clone the project repository
+ 4. Run ‘npm start’
+
 ## Folder PATH listing
 Below is a listing of the relevant files other than large folders created with ’npm create-react-app’ and the descriptions of changes from default app creation or dependent packages.
 
 magic-the-gathering-cards:.
-
-|
-
+|                   
 +---public
-
-|   favicon.ico
-
-|   index.html
-
-|   manifest.json
-
-|
-
-+---src
-
+|       favicon.ico
+|       index.html
+|       manifest.json
+|       
+\---src
     |   About.js  ***description of application functionality and bugs***
-
     |   App.css ***CSS for default app***
-
     |   App.js ***default application***
-
     |   App.test.js
-    
-    |   Home.js ***landing page for application***
-    
+    |   Home.js ***landing page for application***  
     |   index.css
-
     |   index.js
-
     |   logo.svg
-
     |   mtg.png
-
     |   NoMatch.js. ***landing page for invalid url paths***
-
     |   serviceWorker.js
-
-    |
-    
+    |   
     +---assets ***folder to house media and app/site assets***
-
     |       card-back.jpg
-
     |       mtg.jpg8, 4 17 28 PM.png
-
-    |
-    
+    |       
     \---components ***folder for application components***
-
             Card.css ***CSS for individual cards***
-
             Card.js ***code for rendering individual cards***
-
             Cards.css ***CSS for card listing***
-
             Cards.js ***code for rendering card listing application***
-
             Jumbotron.js ***code for React-bootstrap Jumbotron***
-
-            Layout.js
-            
+            Layout.js 
             NavigationBar.js ***code for app/site navigation bar***
-
             SearchCards.js. ***code for card search functionality***
-
             SortCards.js ***code for sorting cards functionality***
-
 
 ## Completed Requirements
 - [x]  Display cards that are of type “creature”.
@@ -134,7 +125,6 @@ magic-the-gathering-cards:.
 # [TODO]
 As with any time boxed project there will be [TODO]s and things that need to be done.
 - [ ] Write tests!!!
-- [ ] Setup security
 - [ ] Create operational support documentation playbook(s)
 - [ ] Implement APM and other metrics
 - [ ] Define work via Kanban board
@@ -149,12 +139,12 @@ As with any time boxed project there will be [TODO]s and things that need to be 
 
 ## Next
 Above and beyond functionality 
-- [ ] Filter cards (feel free to exceed the type restriction as long as it defaults to “creature”)
+-  [ ] Filter cards (feel free to exceed the type restriction as long as it defaults to “creature”)
 - [ ]  Display number of cards loaded
-- [ ] Group by set (and/or other fields)
-- [ ] Show related cards (e.g., cards of the same type, cards in the same set)
-- [ ] Add cards to a list or collection (e.g., build a deck)
+-  [ ] Group by set (and/or other fields)
+-  [ ] Show related cards (e.g., cards of the same type, cards in the same set)
+-  [ ] Add cards to a list or collection (e.g., build a deck)
 
 
 ## Bugs
-- [ ] TBD
+    - [ ] TBD
